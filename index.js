@@ -5,14 +5,11 @@ var price1 = document.querySelector(".price1");
 var total1 = document.querySelector(".totalP1");
 var nombreProduitDansPanier = document.querySelector(".nombreProduitDansPanier");
 var PriceOfAllPurchases = document.querySelector(".PriceOfAllPurchases");
-
 btnPlus1.addEventListener("click",function () {
     count1.innerHTML = parseInt(count1.innerHTML) + 1
     total1.innerHTML = parseInt(total1.innerHTML) + parseInt(price1.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price1.innerHTML)
-
-
 });
 btnMoins1.addEventListener('click',function(){
     if(parseInt(count1.innerHTML) > 0){
@@ -20,8 +17,6 @@ btnMoins1.addEventListener('click',function(){
         total1.innerHTML = parseInt(total1.innerHTML) - parseInt(price1.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price1.innerHTML)
-
-
     } 
 });
 var btnPlus2 = document.querySelector(".btnPlus2");
@@ -35,7 +30,6 @@ btnPlus2.addEventListener("click",function () {
     total2.innerHTML = parseInt(total2.innerHTML) + parseInt(price2.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price2.innerHTML)
-
 });
 btnMoins2.addEventListener('click',function(){
     if(parseInt(count2.innerHTML) > 0){
@@ -43,7 +37,6 @@ btnMoins2.addEventListener('click',function(){
         total2.innerHTML = parseInt(total2.innerHTML) - parseInt(price2.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price2.innerHTML)
-
     } 
 });
 var btnPlus3 = document.querySelector(".btnPlus3");
@@ -57,7 +50,6 @@ btnPlus3.addEventListener("click",function () {
     total3.innerHTML = parseInt(total3.innerHTML) + parseInt(price3.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price3.innerHTML)
-
 });
 btnMoins3.addEventListener('click',function(){
     if(parseInt(count3.innerHTML) > 0){
@@ -65,7 +57,6 @@ btnMoins3.addEventListener('click',function(){
         total3.innerHTML = parseInt(total3.innerHTML) - parseInt(price3.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price3.innerHTML)
-
     } 
 });
 var btnPlus4 = document.querySelector(".btnPlus4");
@@ -79,7 +70,6 @@ btnPlus4.addEventListener("click",function () {
     total4.innerHTML = parseInt(total4.innerHTML) + parseInt(price4.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price4.innerHTML)
-
 });
 btnMoins4.addEventListener('click',function(){
     if(parseInt(count4.innerHTML) > 0){
@@ -87,7 +77,6 @@ btnMoins4.addEventListener('click',function(){
         total4.innerHTML = parseInt(total4.innerHTML) - parseInt(price4.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price4.innerHTML)
-
     } 
 });
 var btnPlus5 = document.querySelector(".btnPlus5");
@@ -101,7 +90,6 @@ btnPlus5.addEventListener("click",function () {
     total5.innerHTML = parseInt(total5.innerHTML) + parseInt(price5.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price5.innerHTML)
-
 });
 btnMoins5.addEventListener('click',function(){
     if(parseInt(count5.innerHTML) > 0){
@@ -109,7 +97,6 @@ btnMoins5.addEventListener('click',function(){
         total5.innerHTML = parseInt(total5.innerHTML) - parseInt(price5.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price5.innerHTML)
-
     } 
 });
 var btnPlus6 = document.querySelector(".btnPlus6");
@@ -123,7 +110,6 @@ btnPlus6.addEventListener("click",function () {
     total6.innerHTML = parseInt(total6.innerHTML) + parseInt(price6.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price6.innerHTML)
-
 });
 btnMoins6.addEventListener('click',function(){
     if(parseInt(count6.innerHTML) > 0){
@@ -131,7 +117,6 @@ btnMoins6.addEventListener('click',function(){
         total6.innerHTML = parseInt(total6.innerHTML) - parseInt(price6.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price6.innerHTML)
-
     } 
 });
 var btnPlus7 = document.querySelector(".btnPlus7");
@@ -145,7 +130,6 @@ btnPlus7.addEventListener("click",function () {
     total7.innerHTML = parseInt(total7.innerHTML) + parseInt(price7.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price7.innerHTML)
-
 });
 btnMoins7.addEventListener('click',function(){
     if(parseInt(count7.innerHTML) > 0){
@@ -153,7 +137,6 @@ btnMoins7.addEventListener('click',function(){
         total7.innerHTML = parseInt(total7.innerHTML) - parseInt(price7.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price7.innerHTML)
-
     } 
 });
 var btnPlus8 = document.querySelector(".btnPlus8");
@@ -167,8 +150,6 @@ btnPlus8.addEventListener("click",function () {
     total8.innerHTML = parseInt(total8.innerHTML) + parseInt(price8.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price8.innerHTML)
-
-
 });
 btnMoins8.addEventListener('click',function(){
     if(parseInt(count8.innerHTML) > 0){
@@ -176,7 +157,6 @@ btnMoins8.addEventListener('click',function(){
         total8.innerHTML = parseInt(total8.innerHTML) - parseInt(price8.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price8.innerHTML)
-
     } 
 });
 var btnPlus9 = document.querySelector(".btnPlus9");
@@ -190,7 +170,6 @@ btnPlus9.addEventListener("click",function () {
     total9.innerHTML = parseInt(total9.innerHTML) + parseInt(price9.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price9.innerHTML)
-
 });
 btnMoins9.addEventListener('click',function(){
     if(parseInt(count9.innerHTML) > 0){
@@ -198,7 +177,6 @@ btnMoins9.addEventListener('click',function(){
         total9.innerHTML = parseInt(total9.innerHTML) - parseInt(price9.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price9.innerHTML)
-
     } 
 });
 var btnPlus10 = document.querySelector(".btnPlus10");
@@ -212,7 +190,6 @@ btnPlus10.addEventListener("click",function () {
     total10.innerHTML = parseInt(total10.innerHTML) + parseInt(price10.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price10.innerHTML)
-
 });
 btnMoins10.addEventListener('click',function(){
     if(parseInt(count10.innerHTML) > 0){
@@ -220,7 +197,6 @@ btnMoins10.addEventListener('click',function(){
         total10.innerHTML = parseInt(total10.innerHTML) - parseInt(price10.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price10.innerHTML)
-
     } 
 });
 var btnPlus11 = document.querySelector(".btnPlus11");
@@ -234,16 +210,13 @@ btnPlus11.addEventListener("click",function () {
     total11.innerHTML = parseInt(total11.innerHTML) + parseInt(price11.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price11.innerHTML)
-
 });
 btnMoins11.addEventListener('click',function(){
     if(parseInt(count11.innerHTML) > 0){
         count11.innerHTML = parseInt(count11.innerHTML) - 1
         total11.innerHTML = parseInt(total11.innerHTML) - parseInt(price11.innerHTML)
-
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price11.innerHTML)
-
     } 
 });
 var btnPlus12 = document.querySelector(".btnPlus12");
@@ -257,7 +230,6 @@ btnPlus12.addEventListener("click",function () {
     total12.innerHTML = parseInt(total12.innerHTML) + parseInt(price12.innerHTML)
     nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) + parseInt(1)
     PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) + parseInt(price12.innerHTML)
-
 });
 btnMoins12.addEventListener('click',function(){
     if(parseInt(count12.innerHTML) > 0){
@@ -265,7 +237,6 @@ btnMoins12.addEventListener('click',function(){
         total12.innerHTML = parseInt(total12.innerHTML) - parseInt(price12.innerHTML)
         nombreProduitDansPanier.innerHTML=parseInt(nombreProduitDansPanier.innerHTML) - parseInt(1)
         PriceOfAllPurchases.innerHTML= parseInt(PriceOfAllPurchases.innerHTML) - parseInt(price12.innerHTML)
-
     }
 });
 
